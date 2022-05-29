@@ -1,0 +1,23 @@
+body {
+  min-width: max-content;
+  background-color: slategray;
+}
+
+h1 {
+  color: white;
+}
+
+.newItemInput {
+  background-color: inherit;
+  color: white;
+  border: none;
+}
+
+.newItemInput:focus {
+  outline: none;
+}
+
+.newItemInput::placeholder {
+  color: white;
+  opacity: 50%;
+}
