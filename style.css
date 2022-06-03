@@ -7,17 +7,17 @@ h1 {
   color: white;
 }
 
-.newItemInput {
+#newItemInput {
   background-color: inherit;
   color: white;
   border: none;
 }
 
-.newItemInput:focus {
+#newItemInput:focus {
   outline: none;
 }
 
-.newItemInput::placeholder {
+#newItemInput::placeholder {
   color: white;
   opacity: 50%;
 }
